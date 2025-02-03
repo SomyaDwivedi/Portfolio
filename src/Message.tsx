@@ -1,8 +1,8 @@
 
 function Message() {
 
-    const name = 'Som';
-    return <h1>Hello {name} </h1>;
+    const name = 'Somya';
+    return <h1>Hello from {name} !! </h1>;
 }
 
 export default Message;
