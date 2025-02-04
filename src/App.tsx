@@ -1,7 +1,6 @@
-import Message from './Message';
-
+import Header from './Header';
 function App(){
-  return <div><Message /></div>
+  return <header><Header /></header>
 }
 
 export default App;
