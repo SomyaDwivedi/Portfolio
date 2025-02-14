@@ -1,21 +1,20 @@
 /* Header.css */
 
 header {
-    background-color: #fffaf5;
-    color: black; 
-    padding: 15px;
+    background-color: #333; /* Changed background color to dark */
+    color: white; /* Changed text color to white */
+    padding: 20px; /* Increased padding */
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Changed font family */
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
-    
+    font-size: 3em; /* Increased font size */
 }
 
 nav {
-    margin-top: 10px;
+    margin-top: 15px; /* Increased margin-top */
 }
 
 nav ul {
@@ -25,11 +24,11 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin-right: 20px; /* Increased margin-right */
 }
 
 nav ul li a {
-    color: black; /* Changed to black */
+    color: white; /* Changed link color to white */
     text-decoration: none;
     font-size: 1.2em;
 }
