@@ -6,11 +6,16 @@ header {
     padding: 20px; /* Increased padding */
     text-align: center;
     font-family: 'Helvetica Neue', Arial, sans-serif; /* Changed font family */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+    position: sticky; /* Make header sticky */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure it stays above other content */
 }
 
 header h1 {
     margin: 0;
     font-size: 3em; /* Increased font size */
+    letter-spacing: 2px; /* Added letter spacing */
 }
 
 nav {
@@ -31,8 +36,30 @@ nav ul li a {
     color: white; /* Changed link color to white */
     text-decoration: none;
     font-size: 1.2em;
+    transition: color 0.3s ease; /* Added transition for color change */
 }
 
 nav ul li a:hover {
     text-decoration: underline;
+    color: #ff6347; /* Change color on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
 }
