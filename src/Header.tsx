@@ -12,7 +12,7 @@ function Header() {
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#projects">Project</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Contacts</a></li>
                 </ul>
             </nav>
             <section id="about">
